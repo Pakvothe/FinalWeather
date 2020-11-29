@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  width: 300px;
+  border: 3px solid #2af545;
+  border-radius: 10px;
+  background: transparent;
+  margin-top: 1em;
+}
+
+.container:hover {
+  border: 3px solid #eb2828;
+}
+
+.centered {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 15px;
+}
+
+.letters {
+  color: white;
+}
+
+.cardLink:hover {
+  text-decoration: none;
+}
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 2em;
+  height: 2em;
+  background-color: red;
+  opacity: 0.7;
+  border-radius: 10px;
+  border: none;
+}
+
+.closeButton:hover {
+  opacity: 1;
+}
+
+.closeButton:focus {
+  outline: 0;
+}
