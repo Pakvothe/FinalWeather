@@ -5,8 +5,8 @@ export default function Ciudad({ city }) {
 
 	if (!city) return <h5 className={styles.info}>Press Home Button..</h5>
 	return (
-		<div className="ciudad">
-			<div className="container">
+		<div className='ciudad'>
+			<div className='container'>
 				<div className={styles.info}>
 					<h2>{city.name}</h2>
 					<div className={styles.info1}>

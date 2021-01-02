@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './SearchBar.module.css';
 
 export default function SearchBar({ onSearch }) {
-	const [city, setCity] = useState("");
+	const [city, setCity] = useState('');
 	return (
 		<form className={styles.container} onSubmit={(e) => {
 			e.preventDefault();
@@ -10,12 +10,12 @@ export default function SearchBar({ onSearch }) {
 		}}>
 			<input
 				className={styles.inputTxt}
-				type="text"
-				placeholder="Type your city..."
+				type='text'
+				placeholder='Type your city...'
 				value={city}
 				onChange={e => setCity(e.target.value)}
 			/>
-			<input className={styles.searchBtn} type="submit" value="Agregar" />
+			<input className={styles.searchBtn} type='submit' value='Agregar' />
 		</form>
 	);
 
