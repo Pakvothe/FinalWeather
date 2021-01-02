@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards';
@@ -54,6 +55,12 @@ function App() {
 
 	return (
 		<div className="App">
+			<Helmet>
+				<meta charSet="utf-8" />
+				<title>Final Weather</title>
+				<p>Your simple Weather App</p>
+				<link rel="canonical" href="https://ff-weather.herokuapp.com/" />
+			</Helmet>
 			<br />
 			<Route path="/" render={() => <Nav onSearch={onSearch} />} />
 			<Route exact path="/about" component={About} />
