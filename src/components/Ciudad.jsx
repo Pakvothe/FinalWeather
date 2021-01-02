@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './Ciudad.module.css';
 import Zoom from 'react-reveal/Zoom';
 import Jump from 'react-reveal/Jump';
@@ -26,7 +27,7 @@ export default function Ciudad({ city }) {
 					<br />
 					<br />
 					<Jump>
-						<p className={styles.back}>Press Home Button to go Home...</p>
+						<Link to='/' className={styles.back}>Go Back</Link>
 					</Jump>
 				</div>
 			</div>
