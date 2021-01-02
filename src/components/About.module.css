@@ -10,3 +10,12 @@
   text-align: center;
   width: 50%;
 }
+
+.github{
+	font-weight: 600;
+	position:relative;
+	padding: 0 0.1em;
+	text-decoration: underline;
+	padding: 0 0.2em;
+	transition: color .2s ease-in-out;
+}

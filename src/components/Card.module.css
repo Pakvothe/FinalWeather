@@ -1,57 +1,54 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 .container {
-  margin: 0 auto;
-  padding: 1rem;
-  position: relative;
-  width: 300px;
-  border: 3px solid #2af545;
-  border-radius: 10px;
-  background: transparent;
-  margin-top: 1em;
+	margin: 0 auto;
+	padding: 1rem;
+	position: relative;
+	width: 300px;
+	border: 3px solid var(--clr-primary);
+	border-radius: 10px;
+	background: transparent;
+	margin-top: 1em;
+	transition: border .2s ease-in-out;
 }
 
 .container:hover {
-  border: 3px solid #eb2828;
+	  border: 3px solid var(--clr-primary-light);
+	  box-shadow: -5px 5px rgba(255, 180, 162, 1);
+	  transition: box-shadow .2s ease-in-out;
 }
 
 .centered {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  gap: 15px;
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	gap: 15px;
 }
 
 .letters {
-  color: white;
+  	color: white;
 }
 
 .cardLink:hover {
-  text-decoration: none;
+  	text-decoration: none;
 }
 .closeButton {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 2em;
-  height: 2em;
-  background-color: red;
-  opacity: 0.7;
-  border-radius: 10px;
-  border: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	background-color: var(--clr-primary-dark);
+	opacity: 0.7;
+	border-radius: 10px;
+	border: none;
 }
 
 .closeButton:hover {
-  opacity: 1;
+  	opacity: 1;
 }
 
 .closeButton:focus {
-  outline: 0;
+  	outline: 0;
 }

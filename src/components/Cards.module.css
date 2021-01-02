@@ -1,13 +1,13 @@
-@media (max-width: 950px) {
-  .order {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 15px;
-  }
+.order {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-.order {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+@media (max-width: 950px) {
+  .order {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 15px;
+  }
 }
