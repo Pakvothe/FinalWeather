@@ -11,7 +11,7 @@ function Nav({ onSearch }) {
 			<div className={styles.container}>
 				<Fade left big>
 					<Link to='/'>
-						<a>Home</a>
+						<a className={styles.home}>Home</a>
 					</Link>
 				</Fade>
 				<Zoom>
