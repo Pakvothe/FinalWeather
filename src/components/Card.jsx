@@ -11,7 +11,7 @@ export default function Card({ min, max, name, img, onClose, id }) {
 					<button onClick={onClose} className={styles.closeButton}>X</button>
 				</div>
 				<div >
-					<Link className={styles.cardLink} to={`/ciudad/${id}`}>
+					<Link className={styles.cardLink} to={`/FinalWeather/ciudad/${id}`}>
 						<h4 className={styles.letters}>{name}</h4>
 						<div className='row'>
 							<div className='col-sm-4 col-md-4 col-lg-4'>

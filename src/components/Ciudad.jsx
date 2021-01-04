@@ -27,7 +27,7 @@ export default function Ciudad({ city }) {
 					<br />
 					<br />
 					<Jump>
-						<Link to='/' className={styles.back}>Go Back</Link>
+						<Link to='/FinalWeather/' className={styles.back}>Go Back</Link>
 					</Jump>
 				</div>
 			</div>
