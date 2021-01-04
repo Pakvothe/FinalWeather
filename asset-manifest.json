@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/FinalWeather/static/css/main.e0953128.chunk.css",
+    "main.js": "/FinalWeather/static/js/main.adf911e0.chunk.js",
+    "main.js.map": "/FinalWeather/static/js/main.adf911e0.chunk.js.map",
+    "runtime-main.js": "/FinalWeather/static/js/runtime-main.6c812f1c.js",
+    "runtime-main.js.map": "/FinalWeather/static/js/runtime-main.6c812f1c.js.map",
+    "static/js/2.2a33cc85.chunk.js": "/FinalWeather/static/js/2.2a33cc85.chunk.js",
+    "static/js/2.2a33cc85.chunk.js.map": "/FinalWeather/static/js/2.2a33cc85.chunk.js.map",
+    "index.html": "/FinalWeather/index.html",
+    "static/css/main.e0953128.chunk.css.map": "/FinalWeather/static/css/main.e0953128.chunk.css.map",
+    "static/js/2.2a33cc85.chunk.js.LICENSE.txt": "/FinalWeather/static/js/2.2a33cc85.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c812f1c.js",
+    "static/js/2.2a33cc85.chunk.js",
+    "static/css/main.e0953128.chunk.css",
+    "static/js/main.adf911e0.chunk.js"
+  ]
+}
