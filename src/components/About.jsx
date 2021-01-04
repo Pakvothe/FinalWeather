@@ -13,7 +13,7 @@ export default function About() {
 				<a className={styles.github} href='https://github.com/Pakvothe/FinalWeather' target='_blank' rel='noreferrer'>Visit the Repository!</a>
 			</div>
 			<Jump>
-				<Link to='/' className={styles.back}>Go Back</Link>
+				<Link to='/FinalWeather/' className={styles.back}>Go Back</Link>
 			</Jump>
 		</Zoom>
 	);
