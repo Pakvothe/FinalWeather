@@ -20,7 +20,7 @@
 
 ```sh
  Feel free to send me a email.
- All the game code is available to anyone who wants to read it.
+ All the code is available to anyone who wants to read it.
 ```
 
  ##### Other Projects:
